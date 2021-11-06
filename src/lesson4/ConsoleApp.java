@@ -1,4 +1,4 @@
-package Lection04.online;
+package lesson4;
 
 import java.util.Random;
 import java.util.Scanner;
@@ -38,7 +38,7 @@ public class ConsoleApp {
     public static boolean isRandomStartPointPlayer = false;
 
     //---Description Enemy
-    public static char enemy = 'E';
+    public static char enemy = ' '; // Невидимый противник.
     public static int healthEnemy;
     public static int strEnemy;
     public static int enemyValueMin = 20;
